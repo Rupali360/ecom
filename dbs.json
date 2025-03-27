@@ -1,182 +1,4 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "name": "Wireless Headphones",
-      "categoryId": 101,
-      "imageUrl": "https://m.media-amazon.com/images/I/51FNnHjzhQL.jpg",
-      "productDesc": "Noise-canceling wireless headphones with deep bass.",
-      "price": 99.99
-    },
-    {
-      "id": 2,
-      "name": "Smartphone",
-      "categoryId": 102,
-      "imageUrl": "https://example.com/images/smartphone.jpg",
-      "productDesc": "Latest model smartphone with high-resolution display.",
-      "price": 699.99
-    },
-    {
-      "id": 3,
-      "name": "Laptop",
-      "categoryId": 103,
-      "imageUrl": "https://example.com/images/laptop.jpg",
-      "productDesc": "Powerful laptop with 16GB RAM and 512GB SSD.",
-      "price": 1199.99
-    },
-    {
-      "id": 4,
-      "name": "Gaming Mouse",
-      "categoryId": 104,
-      "imageUrl": "https://example.com/images/mouse.jpg",
-      "productDesc": "Ergonomic gaming mouse with RGB lighting.",
-      "price": 49.99
-    },
-    {
-      "id": 5,
-      "name": "Mechanical Keyboard",
-      "categoryId": 104,
-      "imageUrl": "https://example.com/images/keyboard.jpg",
-      "productDesc": "Mechanical keyboard with customizable keys.",
-      "price": 89.99
-    },
-    {
-      "id": 6,
-      "name": "Smartwatch",
-      "categoryId": 105,
-      "imageUrl": "https://example.com/images/smartwatch.jpg",
-      "productDesc": "Waterproof smartwatch with heart rate monitoring.",
-      "price": 199.99
-    },
-    {
-      "id": 7,
-      "name": "Tablet",
-      "categoryId": 102,
-      "imageUrl": "https://example.com/images/tablet.jpg",
-      "productDesc": "10-inch tablet with stylus support.",
-      "price": 329.99
-    },
-    {
-      "id": 8,
-      "name": "Bluetooth Speaker",
-      "categoryId": 106,
-      "imageUrl": "https://example.com/images/speaker.jpg",
-      "productDesc": "Portable Bluetooth speaker with rich sound quality.",
-      "price": 59.99
-    },
-    {
-      "id": 9,
-      "name": "4K Monitor",
-      "categoryId": 107,
-      "imageUrl": "https://example.com/images/monitor.jpg",
-      "productDesc": "32-inch 4K UHD monitor with HDR support.",
-      "price": 449.99
-    },
-    {
-      "id": 10,
-      "name": "External Hard Drive",
-      "categoryId": 108,
-      "imageUrl": "https://example.com/images/harddrive.jpg",
-      "productDesc": "1TB external hard drive with USB 3.0.",
-      "price": 79.99
-    },
-    {
-      "id": 11,
-      "name": "Wireless Charger",
-      "categoryId": 109,
-      "imageUrl": "https://example.com/images/charger.jpg",
-      "productDesc": "Fast wireless charger compatible with all devices.",
-      "price": 29.99
-    },
-    {
-      "id": 12,
-      "name": "Fitness Tracker",
-      "categoryId": 105,
-      "imageUrl": "https://example.com/images/fitnesstracker.jpg",
-      "productDesc": "Fitness tracker with sleep and activity monitoring.",
-      "price": 79.99
-    },
-    {
-      "id": 13,
-      "name": "VR Headset",
-      "categoryId": 110,
-      "imageUrl": "https://example.com/images/vr.jpg",
-      "productDesc": "Immersive VR headset with high-resolution display.",
-      "price": 299.99
-    },
-    {
-      "id": 14,
-      "name": "Portable SSD",
-      "categoryId": 108,
-      "imageUrl": "https://example.com/images/ssd.jpg",
-      "productDesc": "500GB portable SSD with fast transfer speeds.",
-      "price": 99.99
-    },
-    {
-      "id": 15,
-      "name": "Drone",
-      "categoryId": 111,
-      "imageUrl": "https://example.com/images/drone.jpg",
-      "productDesc": "Camera drone with 4K recording capability.",
-      "price": 499.99
-    },
-    {
-      "id": 16,
-      "name": "Smart TV",
-      "categoryId": 112,
-      "imageUrl": "https://example.com/images/tv.jpg",
-      "productDesc": "55-inch Smart TV with built-in streaming apps.",
-      "price": 699.99
-    },
-    {
-      "id": 17,
-      "name": "Wireless Earbuds",
-      "categoryId": 101,
-      "imageUrl": "https://example.com/images/earbuds.jpg",
-      "productDesc": "True wireless earbuds with active noise cancellation.",
-      "price": 129.99
-    },
-    {
-      "id": 18,
-      "name": "Power Bank",
-      "categoryId": 109,
-      "imageUrl": "https://example.com/images/powerbank.jpg",
-      "productDesc": "20,000mAh power bank with fast charging.",
-      "price": 39.99
-    },
-    {
-      "id": 19,
-      "name": "Streaming Webcam",
-      "categoryId": 113,
-      "imageUrl": "https://example.com/images/webcam.jpg",
-      "productDesc": "1080p HD streaming webcam with autofocus.",
-      "price": 89.99
-    },
-    {
-      "id": 20,
-      "name": "Gaming Console",
-      "categoryId": 114,
-      "imageUrl": "https://example.com/images/console.jpg",
-      "productDesc": "Next-gen gaming console with 1TB storage.",
-      "price": 499.99
-    },
-    {
-      "id": 21,
-      "name": "Smart Light Bulb",
-      "categoryId": 115,
-      "imageUrl": "https://example.com/images/lightbulb.jpg",
-      "productDesc": "WiFi-enabled smart light bulb with color changing.",
-      "price": 19.99
-    },
-    {
-      "id": 22,
-      "name": "Action Camera",
-      "categoryId": 116,
-      "imageUrl": "https://example.com/images/actioncamera.jpg",
-      "productDesc": "Waterproof action camera with 4K recording.",
-      "price": 249.99
-    }
-  ],
   "categories": [
     {
       "id": 1,
@@ -188,193 +10,169 @@
     },
     {
       "id": 2,
-      "name": "Bluetooth Earbuds",
-      "categoryId": 101,
-      "imageUrl": "https://example.com/images/earbuds.jpg",
-      "productDesc": "True wireless earbuds with crystal clear sound.",
-      "price": 129.99
-    },
-    {
-      "id": 3,
       "name": "Smartphone",
       "categoryId": 102,
-      "imageUrl": "https://example.com/images/smartphone.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61L1ItFgFHL.jpg",
       "productDesc": "Latest model smartphone with high-resolution display.",
       "price": 699.99
     },
     {
-      "id": 4,
-      "name": "Android Tablet",
-      "categoryId": 102,
-      "imageUrl": "https://example.com/images/tablet.jpg",
-      "productDesc": "10-inch Android tablet with long battery life.",
-      "price": 349.99
-    },
-    {
-      "id": 5,
+      "id": 3,
       "name": "Laptop",
       "categoryId": 103,
-      "imageUrl": "https://example.com/images/laptop.jpg",
-      "productDesc": "High-performance laptop with 16GB RAM and 512GB SSD.",
+      "imageUrl": "https://helios-i.mashable.com/imagery/articles/05djrP5PjtVB7CcMtvrTOAP/images-4.fill.size_2000x1125.v1723100793.jpg",
+      "productDesc": "Powerful laptop with 16GB RAM and 512GB SSD.",
       "price": 1199.99
     },
     {
-      "id": 6,
-      "name": "Gaming Laptop",
-      "categoryId": 103,
-      "imageUrl": "https://example.com/images/gaminglaptop.jpg",
-      "productDesc": "Powerful gaming laptop with RTX graphics card.",
-      "price": 1599.99
-    },
-    {
-      "id": 7,
+      "id": 4,
       "name": "Gaming Mouse",
       "categoryId": 104,
-      "imageUrl": "https://example.com/images/mouse.jpg",
-      "productDesc": "Ergonomic gaming mouse with customizable buttons.",
-      "price": 59.99
+      "imageUrl": "https://images-cdn.ubuy.co.in/64e403e7ceed0e7b7f35c788-razer-deathadder-essential-wired-optical.jpg",
+      "productDesc": "Ergonomic gaming mouse with RGB lighting.",
+      "price": 49.99
     },
     {
-      "id": 8,
+      "id": 5,
       "name": "Mechanical Keyboard",
       "categoryId": 104,
-      "imageUrl": "https://example.com/images/keyboard.jpg",
-      "productDesc": "RGB mechanical keyboard with customizable switches.",
+      "imageUrl": "https://m.media-amazon.com/images/I/71LBvbVa95L._AC_UF1000,1000_QL80_.jpg",
+      "productDesc": "Mechanical keyboard with customizable keys.",
       "price": 89.99
     },
     {
-      "id": 9,
+      "id": 6,
       "name": "Smartwatch",
       "categoryId": 105,
-      "imageUrl": "https://example.com/images/smartwatch.jpg",
-      "productDesc": "Waterproof smartwatch with fitness tracking features.",
+      "imageUrl": "https://m.media-amazon.com/images/I/61ZjlBOp+rL.jpg",
+      "productDesc": "Waterproof smartwatch with heart rate monitoring.",
       "price": 199.99
     },
     {
-      "id": 10,
-      "name": "Fitness Band",
-      "categoryId": 105,
-      "imageUrl": "https://example.com/images/fitnessband.jpg",
-      "productDesc": "Fitness band with sleep tracking and step counter.",
-      "price": 79.99
+      "id": 7,
+      "name": "Tablet",
+      "categoryId": 102,
+      "imageUrl": "https://images-cdn.ubuy.co.in/64f572af95ca090ca377b2d9-onn-10-4-tablet-pro-android-13-64.jpg",
+      "productDesc": "10-inch tablet with stylus support.",
+      "price": 329.99
     },
     {
-      "id": 11,
+      "id": 8,
       "name": "Bluetooth Speaker",
       "categoryId": 106,
-      "imageUrl": "https://example.com/images/speaker.jpg",
-      "productDesc": "Portable Bluetooth speaker with powerful bass.",
+      "imageUrl": "https://m.media-amazon.com/images/I/71hvGkBMFNL.jpg",
+      "productDesc": "Portable Bluetooth speaker with rich sound quality.",
       "price": 59.99
     },
     {
-      "id": 12,
-      "name": "Smart Home Speaker",
-      "categoryId": 106,
-      "imageUrl": "https://example.com/images/smartspeaker.jpg",
-      "productDesc": "Voice-controlled smart home speaker with AI assistant.",
-      "price": 149.99
-    },
-    {
-      "id": 13,
+      "id": 9,
       "name": "4K Monitor",
       "categoryId": 107,
-      "imageUrl": "https://example.com/images/monitor.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/A1Iqr2v1SIL.jpg",
       "productDesc": "32-inch 4K UHD monitor with HDR support.",
       "price": 449.99
     },
     {
-      "id": 14,
-      "name": "Curved Gaming Monitor",
-      "categoryId": 107,
-      "imageUrl": "https://example.com/images/gamingmonitor.jpg",
-      "productDesc": "Curved gaming monitor with 165Hz refresh rate.",
-      "price": 599.99
-    },
-    {
-      "id": 15,
+      "id": 10,
       "name": "External Hard Drive",
       "categoryId": 108,
-      "imageUrl": "https://example.com/images/harddrive.jpg",
-      "productDesc": "1TB external hard drive with USB 3.0 connectivity.",
+      "imageUrl": "https://5.imimg.com/data5/VP/EC/MY-25796055/inspiron-14-3000-500x500.jpg",
+      "productDesc": "1TB external hard drive with USB 3.0.",
       "price": 79.99
     },
     {
-      "id": 16,
+      "id": 11,
+      "name": "Wireless Charger",
+      "categoryId": 109,
+      "imageUrl": "https://m.media-amazon.com/images/I/614+4XNwpML.jpg",
+      "productDesc": "Fast wireless charger compatible with all devices.",
+      "price": 29.99
+    },
+    {
+      "id": 12,
+      "name": "Fitness Tracker",
+      "categoryId": 105,
+      "imageUrl": "https://atlas-content-cdn.pixelsquid.com/stock-images/fitness-tracker-orange-bracelet-BYd0MnB-600.jpg",
+      "productDesc": "Fitness tracker with sleep and activity monitoring.",
+      "price": 79.99
+    },
+    {
+      "id": 13,
+      "name": "VR Headset",
+      "categoryId": 110,
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/u5cggJUjzeNhRQnAo2bdtm-1200-80.jpg",
+      "productDesc": "Immersive VR headset with high-resolution display.",
+      "price": 299.99
+    },
+    {
+      "id": 14,
       "name": "Portable SSD",
       "categoryId": 108,
-      "imageUrl": "https://example.com/images/ssd.jpg",
-      "productDesc": "500GB portable SSD with lightning-fast speeds.",
+      "imageUrl": "https://m.media-amazon.com/images/I/71bBCTIvIIL._AC_UF1000,1000_QL80_.jpg",
+      "productDesc": "500GB portable SSD with fast transfer speeds.",
       "price": 99.99
     },
     {
+      "id": 15,
+      "name": "Drone",
+      "categoryId": 111,
+      "imageUrl": "https://img.freepik.com/free-photo/quadcopter-flying-nature_231208-10459.jpg",
+      "productDesc": "Camera drone with 4K recording capability.",
+      "price": 499.99
+    },
+    {
+      "id": 16,
+      "name": "Smart TV",
+      "categoryId": 112,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhmnzCD0aKq8T2qLr-yJznQZiy4zra7YUKIEE_OF4G95_t5ssfZNlQQUg&s=10",
+      "productDesc": "55-inch Smart TV with built-in streaming apps.",
+      "price": 699.99
+    },
+    {
       "id": 17,
-      "name": "Wireless Charger",
-      "categoryId": 109,
-      "imageUrl": "https://example.com/images/charger.jpg",
-      "productDesc": "Fast wireless charger for all smartphones.",
-      "price": 29.99
+      "name": "Wireless Earbuds",
+      "categoryId": 101,
+      "imageUrl": "https://m.media-amazon.com/images/I/61k8s2-fKHL._AC_UF1000,1000_QL80_.jpg",
+      "productDesc": "True wireless earbuds with active noise cancellation.",
+      "price": 129.99
     },
     {
       "id": 18,
       "name": "Power Bank",
       "categoryId": 109,
-      "imageUrl": "https://example.com/images/powerbank.jpg",
-      "productDesc": "20,000mAh power bank with fast charging support.",
+      "imageUrl": "https://images-cdn.ubuy.co.in/6696bef4a7e1070c6f5e81f3-ugreen-nexode-power-bank-20000mah-130w.jpg",
+      "productDesc": "20,000mAh power bank with fast charging.",
       "price": 39.99
     },
     {
       "id": 19,
-      "name": "VR Headset",
-      "categoryId": 110,
-      "imageUrl": "https://example.com/images/vr.jpg",
-      "productDesc": "Immersive VR headset with motion tracking.",
-      "price": 299.99
-    },
-    {
-      "id": 20,
-      "name": "Camera Drone",
-      "categoryId": 111,
-      "imageUrl": "https://example.com/images/drone.jpg",
-      "productDesc": "Camera drone with 4K recording and GPS tracking.",
-      "price": 499.99
-    },
-    {
-      "id": 21,
-      "name": "Smart TV",
-      "categoryId": 112,
-      "imageUrl": "https://example.com/images/tv.jpg",
-      "productDesc": "55-inch Smart TV with built-in streaming apps.",
-      "price": 699.99
-    },
-    {
-      "id": 22,
       "name": "Streaming Webcam",
       "categoryId": 113,
-      "imageUrl": "https://example.com/images/webcam.jpg",
-      "productDesc": "1080p HD webcam with autofocus and noise reduction.",
+      "imageUrl": "https://m.media-amazon.com/images/I/61-K2lXmHQL.jpg",
+      "productDesc": "1080p HD streaming webcam with autofocus.",
       "price": 89.99
     },
     {
-      "id": 23,
+      "id": 20,
       "name": "Gaming Console",
       "categoryId": 114,
-      "imageUrl": "https://example.com/images/console.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/71d4Z5wr+AL.jpg",
       "productDesc": "Next-gen gaming console with 1TB storage.",
       "price": 499.99
     },
     {
-      "id": 24,
+      "id": 21,
       "name": "Smart Light Bulb",
       "categoryId": 115,
-      "imageUrl": "https://example.com/images/lightbulb.jpg",
-      "productDesc": "WiFi-enabled smart light bulb with color-changing features.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL4znkSOgCO6qqjoULWFMXVUn2Xa5XV35jUQ&s",
+      "productDesc": "WiFi-enabled smart light bulb with color changing.",
       "price": 19.99
     },
     {
-      "id": 25,
+      "id": 22,
       "name": "Action Camera",
       "categoryId": 116,
-      "imageUrl": "https://example.com/images/actioncamera.jpg",
+      "imageUrl": "https://i.pcmag.com/imagery/roundups/03wtEym7INA75ZavVx95FwX-13..v1631714663.jpg",
       "productDesc": "Waterproof action camera with 4K recording.",
       "price": 249.99
     }

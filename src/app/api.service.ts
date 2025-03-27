@@ -5,9 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class ApiService {
-  constructor(public apiService: HttpClient) {
-    apiService;
-  }
+  constructor(public apiService: HttpClient) {}
 
   getAllProducts() {
     return this.apiService.get('http://localhost:3000/products');
@@ -15,5 +13,9 @@ export class ApiService {
 
   getProductById(id: string) {
     return this.apiService.get(`http://localhost:3000/products/${id}`);
+  }
+
+  getAllCategory() {
+    return this.apiService.get("http://localhost:3000/categories")
   }
 }
